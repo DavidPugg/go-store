@@ -1,2 +1,4 @@
 bin/
 tmp/
+public/css/output.css
+node_modules/

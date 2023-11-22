@@ -10,6 +10,8 @@ import (
 func main() {
 	e := echo.New()
 
+	e.Static("/public", "public")
+
 	e.GET("/", func(c echo.Context) error {
 		err := pages.HomePage().Render(context.Background(), c.Response().Writer)
 		return err

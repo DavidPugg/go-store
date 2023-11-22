@@ -25,6 +25,14 @@ make templ-watch
 templ generate --watch
 ```
 
+#### CSS
+
+```bash
+make css-watch
+# or
+npx tailwindcss -i ./public/css/app.css -o ./public/css/output.css --watch
+```
+
 ### Prod
 
 ```bash
